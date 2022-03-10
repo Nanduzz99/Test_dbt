@@ -57,7 +57,7 @@ models:
       airbyte_views:
         +tags: airbyte_internal_views
         +materialized: view
-      custom_db:
+      custom_dbt:
         +schema: custom_dbt
         +materialized: table
 
